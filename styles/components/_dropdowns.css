@@ -1,0 +1,35 @@
+.dropdown {
+  @apply relative z-10;
+
+  &:hover,
+  &.is-open {
+    @media (--sm) {
+      @apply z-30;
+
+      .dropdown--content {
+        @apply opacity-100 visible pointer-events-auto;
+      }
+    }
+  }
+
+  &--btn {
+    @apply flex flex-row items-end relative z-20;
+
+    .is-active & {
+      /* active state styles */
+    }
+  }
+
+  &--content {
+    @apply relative h-0 overflow-y-hidden;
+
+    @media (--sm) {
+      @apply absolute top-full whitespace-nowrap overflow-y-visible opacity-0 invisible pointer-events-none transition-all;
+      height: auto !important; /* override mobile accordion styles */
+    }
+  }
+
+  &--nav {
+    @apply block relative;
+  }
+}

@@ -1,0 +1,27 @@
+.footer {
+  @apply relative overflow-hidden;
+  
+  &--content {
+    @apply flex flex-col items-center py-8;
+  }
+
+  .logo {
+    @apply my-4 mx-auto;
+    
+    &--link {
+      @apply mx-auto h-12 p-2;
+    }
+  }
+
+  &--disclaimer {
+    /* customize disclaimer line */
+  }
+}
+
+.social-nav {
+  @apply flex flex-wrap justify-center my-12;
+
+  &--link {
+    @apply block mx-1 w-10 h-10 text-base leading-none;
+  }
+}

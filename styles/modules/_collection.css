@@ -1,0 +1,36 @@
+.collection {
+  @apply max-w-7xl mt-12 mx-auto px-4;
+}
+
+.product-item {
+  @apply flex flex-col relative;
+
+  &--gallery {
+    @apply relative z-30;
+  }
+  
+  &--photo {
+    @apply relative;
+
+    &-hover {
+      @apply absolute inset-0 z-10 opacity-0 invisible transition-all;
+
+      .product-item:hover & {
+        @apply opacity-100 visible;
+      }
+    }
+  }
+
+  &--link {
+    @apply block no-underline text-current;
+
+    &::after {
+      @apply block absolute inset-0 z-20;
+      content: "";
+    }
+  }
+
+  &--option {
+    @apply z-30;
+  }
+}

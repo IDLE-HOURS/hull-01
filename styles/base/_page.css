@@ -1,0 +1,34 @@
+html {
+  &.is-loading,
+  &.is-loading * {
+    @apply cursor-wait !important;
+  }
+}
+
+body {
+  @apply flex flex-col;
+}
+
+.section {
+  @apply relative py-16;
+
+  &.is-error {
+    @apply min-h-screen flex flex-col items-center justify-center text-center;
+  }
+
+  &--wrapper {
+    @apply px-2 md:px-4;
+  }
+
+  &--content {
+    @apply mx-auto max-w-3xl;
+  }
+
+  &--title {
+    @apply mb-4;
+
+    &.has-action {
+      @apply flex items-center justify-between;
+    }
+  }
+}
