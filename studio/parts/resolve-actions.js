@@ -40,7 +40,7 @@ const PreviewAction = props => {
     icon: FiEye,
     onHandle: () => {
       window.open(
-        `${previewURL}/api/preview?token=666&type=${props.type}&slug=${slug ||
+        `${previewURL}/api/preview?token=700&type=${props.type}&slug=${slug ||
           ''}`
       )
     }

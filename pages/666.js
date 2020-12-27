@@ -155,7 +155,7 @@ const SixSixSix = ({ data }) => {
               <CursorFollow
                 cursorContent={
                   <span>
-                    <Icon name="666" viewBox="0 0 666 666" />
+                    <Icon name="700" viewBox="0 0 700 700" />
                   </span>
                 }
               >

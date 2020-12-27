@@ -1,10 +1,10 @@
 /* Variables */
 :root {
-  --black: #000000;
-  --white: #ffffff;
+  --black: #ffffff;
+  --white: #000000;
 
-  --pageBG: #000000;
-  --pageText: #72ff27;
+  --pageBG: #e6ddac;
+  --pageText: #cf1b1b;
 
   --black-rgb: 0,0,0;
   --white-rgb: 255,255,255;

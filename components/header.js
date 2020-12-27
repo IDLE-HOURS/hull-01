@@ -40,7 +40,7 @@ const Header = ({ menu, transparent }) => {
             <div className="logo">
               <Link href="/" scroll={false}>
                 <a className="logo--link" aria-label="Go Home">
-                  <Icon name="Logo" viewBox="0 0 666 666" />
+                  <Icon name="Logo" viewBox="0 0 320 100" />
                 </a>
               </Link>
             </div>

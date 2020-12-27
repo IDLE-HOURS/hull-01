@@ -1,6 +1,6 @@
 @layer base {
   @font-face {
-    font-family: "GandurNew Light";
+    font-family: "junicode-regular-webfont";
     src: url("/fonts/GandurNew-Light.woff2") format("woff2"),
         url("/fonts/GandurNew-Light.woff") format("woff");
     font-weight: normal;
@@ -9,9 +9,9 @@
   }
 
   @font-face {
-    font-family: "Satan";
-    src: url("/fonts/satan.woff2") format("woff2"),
-        url("/fonts/satan.woff") format("woff");
+    font-family: "Inter-Regular";
+    src: url("/fonts/Inter-Regular.woff2") format("woff2"),
+        url("/fonts/Inter-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;

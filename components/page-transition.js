@@ -28,7 +28,7 @@ const PageTransition = React.memo(() => {
         transition={transition}
       >
         <div className="panel-swipe--content">
-          <Icon name="666" viewBox="0 0 666 666" />
+          <Icon name="700" viewBox="0 0 700 700" />
         </div>
         <div className="panel-swipe--bg">
           <Marquee line="Loading" className="is-inverted is-large" />

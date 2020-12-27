@@ -184,7 +184,7 @@ SENDGRID_API_KEY=XXXXXX
 ### 5) Shopify Store Theme
 Since we're serving our store through a headless environment, we don't want visitors accessing our unused shopify theme. The domain for this is visible during checkout, and is publicly accessible. To silence it, replace your current theme's `theme.liquid` file with the one from this repo, and replace `your_frontsite_domain` with your actual frontsite domain URL **(do not include protocol or trailing slash)**
 
-This will essentially "pass-through" URLs accessed on at your Shopify Store to your true headless environment *(ie. `shop.666.com/products` -> `666.com/products`)*
+This will essentially "pass-through" URLs accessed on at your Shopify Store to your true headless environment *(ie. `shop.700.com/products` -> `700.com/products`)*
 
 <br />
 
@@ -227,7 +227,7 @@ That being said, I understand this means a lot of what's included is **very opin
 
 By now, I'm sure you noticed the ridiculous-looking [demo site](https://insane.codes/) (I love 90's metal, can you tell?)
 
-I've purposefully extracted all the styles that pertain to the demo in a single CSS file (`/styles/_config/_666.css`). Remove it from your styles to truly strip it down to its _hull_.
+I've purposefully extracted all the styles that pertain to the demo in a single CSS file (`/styles/_config/_700.css`). Remove it from your styles to truly strip it down to its _hull_.
 </details>
 
 <details>

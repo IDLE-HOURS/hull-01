@@ -34,7 +34,7 @@ const Footer = ({ menu, social }) => {
           <div className="logo">
             <Link href="/" scroll={false}>
               <a className="logo--link" aria-label="Go Home">
-                <Icon name="Logo Mark" id="footerLogo" viewBox="0 0 666 430" />
+                <Icon name="Logo Mark" id="footerLogo" viewBox="0 0 320 50" />
               </a>
             </Link>
           </div>

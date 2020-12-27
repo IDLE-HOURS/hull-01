@@ -20,8 +20,8 @@ module.exports = {
     },
     fontFamily: {
       inherit: 'inherit',
-      serif: ['GandurNew Light', 'serif'],
-      sans: ['Satan', 'sans-serif'],
+      serif: ['junicode-regular-webfont', 'serif'],
+      sans: ['Inter-Regular', 'sans-serif'],
       mono: ['Courier', 'monospace'],
     },
     screens: {
